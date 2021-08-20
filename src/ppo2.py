@@ -138,7 +138,7 @@ class Network():
         self._entropy *= decay
 
     def get_entropy(self, step):
-        return np.clip(self._entropy, 1e-30, 5.)
+        return np.clip(self._entropy, 1e-1, 5.)
 
     def train(self, s_batch, a_batch, p_batch, v_batch, epoch):
         s_batch, a_batch, p_batch, v_batch = tflearn.data_utils.shuffle(s_batch, a_batch, p_batch, v_batch)
