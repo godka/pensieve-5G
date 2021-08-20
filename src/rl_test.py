@@ -114,6 +114,7 @@ def main():
             # dequeue history record
             state = np.roll(state, -1, axis=1)
 
+            delay = float(delay) - env.LINK_RTT
             # this should be S_INFO number of terms
             state[0, -1] = VIDEO_BIT_RATE[bit_rate] / float(np.max(VIDEO_BIT_RATE))  # last quality
             state[1, -1] = buffer_size / BUFFER_NORM_FACTOR  # 10 sec

@@ -20,10 +20,10 @@ TRAIN_EPOCH = 1000000
 MODEL_SAVE_INTERVAL = 300
 RANDOM_SEED = 42
 RAND_RANGE = 10000
-SUMMARY_DIR = './results'
+SUMMARY_DIR = './rl-5g'
 TRAIN_TRACES = './train/'
 TEST_LOG_FOLDER = './test_results/'
-LOG_FILE = './results/log'
+LOG_FILE = './rl-5g/log'
 PPO_TRAINING_EPO = 5
 # create result directory
 if not os.path.exists(SUMMARY_DIR):

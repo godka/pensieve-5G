@@ -2,7 +2,9 @@ src/*.txt
 src/__pycache__
 src/*.pyc
 src/test_results/
-src/results/
+src/results2/
 src/ppo_gumbel/
 src/models/
 src/*.tar.gz
+src/plot.py
+src/rl-5g/

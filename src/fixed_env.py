@@ -10,7 +10,7 @@ TOTAL_VIDEO_CHUNCK = 157
 BUFFER_THRESH = 60.0 * MILLISECONDS_IN_SECOND  # millisec, max buffer limit
 DRAIN_BUFFER_SLEEP_TIME = 500.0  # millisec
 PACKET_PAYLOAD_PORTION = 0.95
-LINK_RTT = 80  # millisec
+LINK_RTT = 104.  # millisec
 PACKET_SIZE = 1500  # bytes
 VIDEO_SIZE_FILE = './videos/video_size_'
 
