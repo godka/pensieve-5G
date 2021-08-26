@@ -1,6 +1,6 @@
 # Pensieve PPO for 5G traces
 
-Key Motivation
+## Key Motivation
 
 I further investigate the key reason why RL-based methods fail to perform well in 5G. Here are some key findings.
 
@@ -36,6 +36,8 @@ Next, we reported our retrained results here. As shown, we can see that Pensieve
 Moreover, we demonstrated Pensieve's last 50,000 epochs, aka., Pensieve's Pareto Frontier. As expected, Pensieve can always satisfy the requirements.
 
 ![figure17-PF](https://user-images.githubusercontent.com/13187954/130193762-9867cf71-3a35-4673-baf1-1ddad535bddc.png)
+
+## Main Takeaway
 
 _In general, we argue that Pensieve can also be well-performed in 5G networks._ The key reason for the results in the paper is the lack of RL tricks, such as state normalization and sim-to-real gaps, rather than Pensieve itself. 
 At the same time, we also provide the pre-trained model in [here](https://github.com/godka/pensieve-5G/tree/master/src/results).
